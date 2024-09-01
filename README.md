@@ -1,11 +1,14 @@
 # Azure Lab Setup Guide
 
-This guide will walk you through setting up an Azure environment with a Windows 10 Pro and an Ubuntu virtual machine (VM). These VMs will be used in subsequent labs. This lab will not include much visual documentation as I have previously demonstrated how to provision a virtual machine on my portfolio. That tutorial can be found [here.](https://github.com/gabe-IT/azure-vm) 
+This guide will walk you through setting up a vulnerable Azure environment with a Windows 10 Pro and an Ubuntu virtual machine (VM) for the purpose of a honeynet. These VMs will be used in subsequent labs. This lab will not include much visual documentation as I have previously demonstrated how to provision a virtual machine on my portfolio. That tutorial can be found [here.](https://github.com/gabe-IT/azure-vm) 
 
 ## Prerequisites
 
 - **Azure Account**: Create a new Azure account using [this link](https://azure.microsoft.com/en-us/free/). Avoid using a work or school account.
 - **Azure Subscription**: Try to create a free subscription. If you're unable to, consider using a different credit card, email, and phone number to get another free one. Alternatively, sign up for a "pay as you go" account, opting for the free support tier to minimize costs. Remember to keep your VMs off when not in use to avoid unnecessary charges.
+
+##Disclaimer
+Before proceeding, ensure that your selected VM images have an operating system that supports the Azure Monitor Agent. Refer to [this page](https://learn.microsoft.com/en-us/azure/azure-monitor/agents/azure-monitor-agent-supported-operating-systems) for supported OS versions.
 
 ## Steps to Setup
 
