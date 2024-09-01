@@ -24,15 +24,15 @@ Before proceeding, ensure that your selected VM images have an operating system 
    - **Region**: EAST US 2
    - **Resource Group**: RG-Cyber-Lab
    - **VM Name**: `linux-vm`
-   - **Virtual Network**: `Lab-VNet`
+   - **Virtual Network**: `Lab-VNet` (Both virtual machines should be in the same VNet).
    - Choose appropriate VM sizes, preferably at least 2 VCPUs and ~16gb memory. 
    - Use username and password for authentication.
 
 ### 3. **Configure Network Security Groups (NSGs)**
    - For both VMs, configure the NSGs (Layer 4 Firewall) to allow all inbound traffic.
-
-### 4. **Record Your Information**
-   - Document all relevant subscription and VM details in a notepad for future reference.
+   - Type NSG in the Azure Portal search bar and navigate there. Then select each network security group at a time. 
+   - For both NSGs, allow ALL traffic. The configuration should look like the image below. Make sure to set the priority high (the lower the number, the higher the priority). 
+     ![image](https://github.com/user-attachments/assets/86205c04-a9ec-4597-9b82-da6938543ef7)
 
 ## Next Steps
 
