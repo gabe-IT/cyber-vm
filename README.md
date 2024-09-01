@@ -32,7 +32,7 @@ Before proceeding, ensure that your selected VM images have an operating system 
    - For both VMs, configure the NSGs (Layer 4 Firewall) to allow all inbound traffic.
    - Type NSG in the Azure Portal search bar and navigate there. Then select each network security group at a time. 
    - For both NSGs, allow ALL traffic. The configuration should look like the image below. Make sure to set the priority high (the lower the number, the higher the priority). 
-   - ![image](https://github.com/user-attachments/assets/86205c04-a9ec-4597-9b82-da6938543ef7)
+![image](https://github.com/user-attachments/assets/86205c04-a9ec-4597-9b82-da6938543ef7)
 
 ## Next Steps
 
