@@ -1,6 +1,6 @@
 # Azure Lab Setup Guide
 
-This guide will walk you through setting up an Azure environment with a Windows 10 Pro and an Ubuntu virtual machine (VM). These VMs will be used in subsequent labs. This lab will not include much visual documentation as I have previously demonstrated how to provision a virtual machine on my portfolio. That can be found [here.](https://github.com/gabe-IT/azure-vm) 
+This guide will walk you through setting up an Azure environment with a Windows 10 Pro and an Ubuntu virtual machine (VM). These VMs will be used in subsequent labs. This lab will not include much visual documentation as I have previously demonstrated how to provision a virtual machine on my portfolio. That tutorial can be found [here.](https://github.com/gabe-IT/azure-vm) 
 
 ## Prerequisites
 
@@ -14,7 +14,7 @@ This guide will walk you through setting up an Azure environment with a Windows 
    - **Resource Group**: RG-Cyber-Lab
    - **VM Name**: `windows-vm`
    - **Virtual Network**: `Lab-VNet`
-   - Choose an appropriate VM size that is cost-effective.
+   - Choose appropriate VM sizes, preferably at least 2 VCPUs and ~16gb memory.  
    - Set a strong password for the VM.
 
 ### 2. **Create an Ubuntu (Linux) VM**
@@ -22,7 +22,7 @@ This guide will walk you through setting up an Azure environment with a Windows 
    - **Resource Group**: RG-Cyber-Lab
    - **VM Name**: `linux-vm`
    - **Virtual Network**: `Lab-VNet`
-   - Avoid using the B1s size; select a larger option.
+   - Choose appropriate VM sizes, preferably at least 2 VCPUs and ~16gb memory. 
    - Use username and password for authentication.
 
 ### 3. **Configure Network Security Groups (NSGs)**
